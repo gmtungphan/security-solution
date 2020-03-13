@@ -1,0 +1,4 @@
+Find parameters vulnerable to LFI & Path Traversal & SSRF & Open Redirect:
+Burp Search > Regex 
+
+\?.*=(\/\/?\w+|\w+\/|\w+(%3A|:)(\/|%2F)|%2F|[\.\w]+\.\w{2,4}[^\w])
